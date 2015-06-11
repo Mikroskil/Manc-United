@@ -1,0 +1,71 @@
+{
+  "name": "gh-pages",
+  "version": "0.2.0",
+  "description": "Publish to a gh-pages branch on GitHub (or any other branch on any other remote)",
+  "keywords": [
+    "git",
+    "gh-pages",
+    "github"
+  ],
+  "author": {
+    "name": "Tim Schaub",
+    "url": "http://tschaub.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://tschaub.mit-license.org/"
+    }
+  ],
+  "homepage": "https://github.com/tschaub/gh-pages",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tschaub/gh-pages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tschaub/gh-pages/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node tasks.js lint test"
+  },
+  "dependencies": {
+    "q": "~1.0.1",
+    "q-io": "~1.11.0",
+    "graceful-fs": "2.0.1",
+    "async": "0.2.9",
+    "wrench": "1.5.1",
+    "lodash": "~2.4.1",
+    "glob": "~4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "jshint": "~2.4.4",
+    "chai": "~1.9.1"
+  },
+  "_id": "gh-pages@0.2.0",
+  "_shasum": "775503bf6af6656111e8c9b6cb9d62bdf0f8b7b4",
+  "_from": "gh-pages@^0.2.0",
+  "_npmVersion": "1.4.9",
+  "_npmUser": {
+    "name": "tschaub",
+    "email": "tim.schaub@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "tschaub",
+      "email": "tim.schaub@gmail.com"
+    },
+    {
+      "name": "markdalgleish",
+      "email": "mark.john.dalgleish@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "775503bf6af6656111e8c9b6cb9d62bdf0f8b7b4",
+    "tarball": "http://registry.npmjs.org/gh-pages/-/gh-pages-0.2.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/gh-pages/-/gh-pages-0.2.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
