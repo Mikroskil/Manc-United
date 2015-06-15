@@ -366,8 +366,8 @@ article.bespoke-parent {
   -ms-perspective: 600px;
   perspective: 600px;
   background-image: url("image/green.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 h1 {
   font-size: 72px;
@@ -443,6 +443,12 @@ section li {
   src: url("fonts/Harmaa%20Perkele.ttf");
   font-family: GrutchShaded;
   src: url("fonts/GrutchShaded.ttf");
+}
+@font-face {
+  font-family: GESSO;
+  src: url("fonts/GESSO___.ttf");
+}
+@font-face {
   font-family: GESSO;
   src: url("fonts/GESSO___.ttf");
 }
