@@ -114,10 +114,48 @@ pre[class*="language-"]
   -moz-hyphens none
   -ms-hyphens none
   hyphens none
+  color #f8f8f2
+  text-shadow 0 1px rgba(0,0,0,0.3)
+  font-family Consolas, Monaco, 'Andale Mono', monospace
+  direction ltr
+  text-align left
+  white-space pre
+  word-spacing normal
+  word-break normal
+  line-height 1.5
+  -moz-tab-size 4
+  tab-size 4
+  -webkit-hyphens none
+  -moz-hyphens none
+  -ms-hyphens none
+  hyphens none
+  color #f8f8f2
+  text-shadow 0 1px rgba(0,0,0,0.3)
+  font-family Consolas, Monaco, 'Andale Mono', monospace
+  direction ltr
+  text-align left
+  white-space pre
+  word-spacing normal
+  word-break normal
+  line-height 1.5
+  -moz-tab-size 4
+  tab-size 4
+  -webkit-hyphens none
+  -moz-hyphens none
+  -ms-hyphens none
+  hyphens none
 
 pre[class*="language-"]
   padding 1em
   margin .5em 0
+  overflow auto
+  border-radius 0.3em
+  padding 1em
+  margin 0.5em 0
+  overflow auto
+  border-radius 0.3em
+  padding 1em
+  margin 0.5em 0
   overflow auto
   border-radius 0.3em
   padding 1em
@@ -154,11 +192,17 @@ pre[class*="language-"]
   background #272822
   background #272822
   background #272822
+  background #272822
+  background #272822
 
 :not(pre)
   & > code[class*="language-"]
     padding .1em
     border-radius .3em
+    padding 0.1em
+    border-radius 0.3em
+    padding 0.1em
+    border-radius 0.3em
     padding 0.1em
     border-radius 0.3em
     padding 0.1em
@@ -183,9 +227,13 @@ pre[class*="language-"]
   color #708090
   color #708090
   color #708090
+  color #708090
+  color #708090
 
 .token
   &.punctuation
+    color #f8f8f2
+    color #f8f8f2
     color #f8f8f2
     color #f8f8f2
     color #f8f8f2
@@ -201,7 +249,11 @@ pre[class*="language-"]
     color #66d9ef
     color #66d9ef
     color #66d9ef
+    color #66d9ef
+    color #66d9ef
   &.italic
+    font-style italic
+    font-style italic
     font-style italic
     font-style italic
     font-style italic
@@ -217,9 +269,13 @@ pre[class*="language-"]
     cursor help
     cursor help
     cursor help
+    cursor help
+    cursor help
 
 .namespace
   opacity .7
+  opacity 0.7
+  opacity 0.7
   opacity 0.7
   opacity 0.7
   opacity 0.7
@@ -239,9 +295,13 @@ pre[class*="language-"]
   color #f92672
   color #f92672
   color #f92672
+  color #f92672
+  color #f92672
 
 .token.boolean,
 .token.number
+  color #ae81ff
+  color #ae81ff
   color #ae81ff
   color #ae81ff
   color #ae81ff
@@ -263,6 +323,8 @@ pre[class*="language-"]
   color #a6e22e
   color #a6e22e
   color #a6e22e
+  color #a6e22e
+  color #a6e22e
 
 .token.operator,
 .token.entity,
@@ -270,6 +332,8 @@ pre[class*="language-"]
 .language-css .token.string,
 .style .token.string,
 .token.variable
+  color #f8f8f2
+  color #f8f8f2
   color #f8f8f2
   color #f8f8f2
   color #f8f8f2
@@ -288,6 +352,8 @@ pre[class*="language-"]
   color #e6db74
   color #e6db74
   color #e6db74
+  color #e6db74
+  color #e6db74
 
 .token.regex,
 .token.important
@@ -298,9 +364,13 @@ pre[class*="language-"]
   color #fd971f
   color #fd971f
   color #fd971f
+  color #fd971f
+  color #fd971f
 
 .token.important,
 .token.bold
+  font-weight bold
+  font-weight bold
   font-weight bold
   font-weight bold
   font-weight bold
@@ -365,7 +435,8 @@ section
     font-family GrutchShaded
 
 .li2
-  li
+  k
+    color #0f0
     font-family GrutchShaded
 
 .bespoke-slide
@@ -395,6 +466,18 @@ section
   background-position center
   background-repeat no-repeat
 
+#kontainer-bm
+  background-color #fff
+  background-image url("image/bayern.png")
+  background-position center
+  background-repeat no-repeat
+
+#kontainer-ju
+  background-color #fff
+  background-image url("image/jupe.jpg")
+  background-position center
+  background-repeat no-repeat
+
 .kontainer
   width 750px
   height 480px
@@ -410,16 +493,15 @@ section
 @font-face
   font-family "Harmaa Perkele"
   src url("fonts/Harmaa%20Perkele.ttf")
+  font-family GESSO
+  src url("fonts/GESSO___.ttf")
+  font-family GESSO
+  src url("fonts/GESSO___.ttf")
   font-family GrutchShaded
   src url("fonts/GrutchShaded.ttf")
-  font-family GESSO
-  src url("fonts/GESSO___.ttf")
-  font-family GESSO
-  src url("fonts/GESSO___.ttf")
 
 .right
   img
     float right
     margin-top 140px
-    margin-right 70 p
-
+    margin-right 70 px

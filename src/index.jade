@@ -21,18 +21,21 @@ html
           strong Versi Manc United
         .li2
           li
-          li Real Madrid
-          li Barcelona
-          li Manchester United
-          li PSMS MEDAN
-          li Cabe-Cabean U-19
+          li
+            k Real Madrid
+          li
+            k Barcelona
+          li
+            k Manchester United
+          li
+            k Bayern Munchen
+          li
+            k Juventus
       section#kontainer-rm
         p Real Madrid
         .kontainer
           ul
-            li
             .left
-              li
             .center
               li
                 p
@@ -46,10 +49,7 @@ html
         p Barcelona
         .kontainer
           ul
-            li
             .left
-              li
-                img(src='build/image/rm.jpg', style='width:0px auto; height:0px auto;')
             .center
               li
                 p
@@ -65,8 +65,6 @@ html
           ul
             li
             .left
-              li
-                img(src='build/image/rm.jpg', style='width:100px; height:150px;')
             .center
               li
                 p
@@ -76,14 +74,12 @@ html
             .right
               li
                 img(src='build/image/rm2.jpg', style='width:300px; height:200px')
-      section
-        p PSMS MEDAN
+      section#kontainer-bm
+        p Bayern Munchen
         .kontainer
           ul
             li
             .left
-              li
-                img(src='build/image/rm.jpg', style='width:100px; height:150px;')
             .center
               li
                 p
@@ -91,17 +87,13 @@ html
                   br
                   | Gelar bergengsi : 10 Liga Champions, 32 Liga Spanyol
             .right
-              li
-                img(src='build/image/rm2.jpg', style='width:300px; height:200px')
         pre.
-      section(data-bespoke-hash='named-route')
-        p Cabe Cabean U-19
+      section#kontainer-ju
+        p Juventus
         .kontainer
           ul
             li
             .left
-              li
-                img(src='build/image/rm.jpg', style='width:100px; height:150px;')
             .center
               li
                 p
@@ -109,8 +101,26 @@ html
                   br
                   | Gelar bergengsi : 10 Liga Champions, 32 Liga Spanyol
             .right
-              li
-                img(src='build/image/rm2.jpg', style='width:300px; height:200px')
+        pre.
+      //
+        <section  data-bespoke-hash="named-route" id="kontainer-am">
+        <p>Juve</p>
+        <div class="kontainer">
+        <ul>
+        <li></li>
+        <div class="left">
+        </div>
+        <div class="center">
+        <li>
+        <p>Negara : Spanyol<br>Gelar bergengsi : 10 Liga Champions, 32 Liga Spanyol</p>
+        </li>
+        </div>
+        <div class="right">
+        <li><img src="build/image/rm2.jpg" style="width:300px; height:200px"></li>
+        </div>
+        </ul>
+        </div>
+        </section>
       section
         h2.bullet MAULIATE... !!!
         //
