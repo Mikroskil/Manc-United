@@ -84,10 +84,48 @@ pre[class*="language-"]
   -moz-hyphens none
   -ms-hyphens none
   hyphens none
+  color #f8f8f2
+  text-shadow 0 1px rgba(0,0,0,0.3)
+  font-family Consolas, Monaco, 'Andale Mono', monospace
+  direction ltr
+  text-align left
+  white-space pre
+  word-spacing normal
+  word-break normal
+  line-height 1.5
+  -moz-tab-size 4
+  tab-size 4
+  -webkit-hyphens none
+  -moz-hyphens none
+  -ms-hyphens none
+  hyphens none
+  color #f8f8f2
+  text-shadow 0 1px rgba(0,0,0,0.3)
+  font-family Consolas, Monaco, 'Andale Mono', monospace
+  direction ltr
+  text-align left
+  white-space pre
+  word-spacing normal
+  word-break normal
+  line-height 1.5
+  -moz-tab-size 4
+  tab-size 4
+  -webkit-hyphens none
+  -moz-hyphens none
+  -ms-hyphens none
+  hyphens none
 
 pre[class*="language-"]
   padding 1em
   margin .5em 0
+  overflow auto
+  border-radius 0.3em
+  padding 1em
+  margin 0.5em 0
+  overflow auto
+  border-radius 0.3em
+  padding 1em
+  margin 0.5em 0
   overflow auto
   border-radius 0.3em
   padding 1em
@@ -114,11 +152,17 @@ pre[class*="language-"]
   background #272822
   background #272822
   background #272822
+  background #272822
+  background #272822
 
 :not(pre)
   & > code[class*="language-"]
     padding .1em
     border-radius .3em
+    padding 0.1em
+    border-radius 0.3em
+    padding 0.1em
+    border-radius 0.3em
     padding 0.1em
     border-radius 0.3em
     padding 0.1em
@@ -137,9 +181,13 @@ pre[class*="language-"]
   color #708090
   color #708090
   color #708090
+  color #708090
+  color #708090
 
 .token
   &.punctuation
+    color #f8f8f2
+    color #f8f8f2
     color #f8f8f2
     color #f8f8f2
     color #f8f8f2
@@ -151,7 +199,11 @@ pre[class*="language-"]
     color #66d9ef
     color #66d9ef
     color #66d9ef
+    color #66d9ef
+    color #66d9ef
   &.italic
+    font-style italic
+    font-style italic
     font-style italic
     font-style italic
     font-style italic
@@ -163,9 +215,13 @@ pre[class*="language-"]
     cursor help
     cursor help
     cursor help
+    cursor help
+    cursor help
 
 .namespace
   opacity .7
+  opacity 0.7
+  opacity 0.7
   opacity 0.7
   opacity 0.7
   opacity 0.7
@@ -181,9 +237,13 @@ pre[class*="language-"]
   color #f92672
   color #f92672
   color #f92672
+  color #f92672
+  color #f92672
 
 .token.boolean,
 .token.number
+  color #ae81ff
+  color #ae81ff
   color #ae81ff
   color #ae81ff
   color #ae81ff
@@ -201,6 +261,8 @@ pre[class*="language-"]
   color #a6e22e
   color #a6e22e
   color #a6e22e
+  color #a6e22e
+  color #a6e22e
 
 .token.operator,
 .token.entity,
@@ -208,6 +270,8 @@ pre[class*="language-"]
 .language-css .token.string,
 .style .token.string,
 .token.variable
+  color #f8f8f2
+  color #f8f8f2
   color #f8f8f2
   color #f8f8f2
   color #f8f8f2
@@ -222,9 +286,13 @@ pre[class*="language-"]
   color #e6db74
   color #e6db74
   color #e6db74
+  color #e6db74
+  color #e6db74
 
 .token.regex,
 .token.important
+  color #fd971f
+  color #fd971f
   color #fd971f
   color #fd971f
   color #fd971f
@@ -238,6 +306,8 @@ pre[class*="language-"]
   font-weight bold
   font-weight bold
   font-weight bold
+  font-weight bold
+  font-weight bold
 
 article
   -webkit-transition background 0.8s ease
@@ -245,17 +315,18 @@ article
   &.bespoke-parent
     display block
     position absolute
-    top 0
-    bottom 0
-    left 0
-    right 0
+    top 0px
+    bottom 0px
+    left 0px
+    right 0px
     overflow hidden
     -webkit-perspective 600px
     -ms-perspective 600px
     perspective 600px
-    background-image url(image/green.jpg)
-    background-size cover
-    background-repeat no-repeat
+    background-image url("image/grass.jpg")
+    background-size auto
+    background-repeat repeat
+    margin 20px
 
 h1
   font-size 72px
@@ -303,15 +374,26 @@ section
   -ms-flex-align center
   align-items center
   text-align center
-  width 750px
-  height 480px
-  top 50%
-  margin-top -240px
-  left 50%
-  margin-left -320px
-  background none
-  padding 40px
+  background #000
   border-radius 0
+
+#kontainer-rm
+  background-color #fff
+  background-image url("image/rm.jpg")
+  background-position center
+  background-repeat no-repeat
+
+#kontainer-bc
+  background-color #fff
+  background-image url("image/barca.jpg")
+  background-position center
+  background-repeat no-repeat
+
+#kontainer-mu
+  background-color #fff
+  background-image url("image/MU.jpg")
+  background-position center
+  background-repeat no-repeat
 
 .kontainer
   width 750px
@@ -325,23 +407,19 @@ section
   p
     font-size 14px
 
-.right
-  img
-    float right
-    padding 20px
-
 @font-face
   font-family "Harmaa Perkele"
   src url("fonts/Harmaa%20Perkele.ttf")
   font-family GrutchShaded
   src url("fonts/GrutchShaded.ttf")
-
-@font-face
+  font-family GESSO
+  src url("fonts/GESSO___.ttf")
   font-family GESSO
   src url("fonts/GESSO___.ttf")
 
-
-@font-face
-  font-family GESSO
-  src url(fonts/GESSO___.ttf)
+.right
+  img
+    float right
+    margin-top 140px
+    margin-right 70 p
 
