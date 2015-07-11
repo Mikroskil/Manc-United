@@ -1,0 +1,87 @@
+{
+  "name": "bespoke-keys",
+  "version": "1.0.0",
+  "description": "Keyboard Support for Bespoke.js",
+  "homepage": "https://github.com/markdalgleish/bespoke-keys",
+  "bugs": {
+    "url": "https://github.com/markdalgleish/bespoke-keys/issues"
+  },
+  "author": {
+    "name": "Mark Dalgleish",
+    "url": "https://github.com/markdalgleish"
+  },
+  "main": "./lib/bespoke-keys.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markdalgleish/bespoke-keys.git"
+  },
+  "scripts": {
+    "test": "gulp",
+    "coveralls": "gulp coveralls"
+  },
+  "peerDependencies": {
+    "bespoke": "^1.0.0-beta"
+  },
+  "devDependencies": {
+    "bespoke": "^1.0.0-beta",
+    "browserify": "^4.1.5",
+    "function-bind": "^0.1.0",
+    "gulp": "^3.5.1",
+    "gulp-clean": "^0.2.4",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-gzip": "0.0.8",
+    "gulp-header": "^1.0.2",
+    "gulp-jshint": "^1.3.4",
+    "gulp-karma": "0.0.2",
+    "gulp-micro": "^0.1.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.0",
+    "istanbul": "^0.2.11",
+    "jshint-stylish": "^0.1.5",
+    "karma": "^0.10.9",
+    "karma-browserify": "^0.2.1",
+    "karma-coverage": "^0.1.5",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-script-launcher": "^0.1.0",
+    "lodash": "^2.4.1",
+    "requirejs": "^2.1.10",
+    "simulant": "^0.1.0",
+    "vinyl-buffer": "0.0.0",
+    "vinyl-map": "^1.0.1",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mit-license.org/markdalgleish"
+    }
+  ],
+  "keywords": [
+    "bespoke-plugin"
+  ],
+  "_id": "bespoke-keys@1.0.0",
+  "_shasum": "53276d0a88a8153c918da4e9f48140ebb1a03a5e",
+  "_from": "bespoke-keys@^1.0.0",
+  "_npmVersion": "1.4.9",
+  "_npmUser": {
+    "name": "markdalgleish",
+    "email": "mark.john.dalgleish@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "markdalgleish",
+      "email": "mark.john.dalgleish@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "53276d0a88a8153c918da4e9f48140ebb1a03a5e",
+    "tarball": "http://registry.npmjs.org/bespoke-keys/-/bespoke-keys-1.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/bespoke-keys/-/bespoke-keys-1.0.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
